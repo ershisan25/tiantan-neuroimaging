@@ -1,0 +1,6 @@
+# large source assets not used by the published site
+assets/slides/
+# local dev server + source pdf
+serve.py
+*.pdf
+.DS_Store
