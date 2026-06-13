@@ -182,3 +182,7 @@ footer .fine{width:100%;margin-top:26px;padding-top:20px;border-top:1px solid rg
 .newsitem h3{font-size:1.12rem;margin:0 0 .25rem}
 .newsitem p{margin:0;color:var(--muted);font-size:.93rem}
 @media(max-width:600px){.newsitem{grid-template-columns:1fr;gap:4px}.newsitem time{font-size:.82rem}}
+
+/* real-photo avatar in person cards */
+.person .photo{width:96px;height:96px;border-radius:50%;object-fit:cover;object-position:center top;
+  margin:0 auto 14px;border:1px solid var(--line);box-shadow:var(--shadow-sm)}
