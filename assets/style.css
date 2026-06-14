@@ -186,3 +186,26 @@ footer .fine{width:100%;margin-top:26px;padding-top:20px;border-top:1px solid rg
 /* real-photo avatar in person cards */
 .person .photo{width:96px;height:96px;border-radius:50%;object-fit:cover;object-position:center top;
   margin:0 auto 14px;border:1px solid var(--line);box-shadow:var(--shadow-sm)}
+
+/* ===== nav logo ===== */
+.brand img.logo{height:30px;width:auto;display:block;border-radius:6px}
+/* ===== team photo band ===== */
+.teamphoto{border-radius:var(--r);overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow)}
+.teamphoto img{width:100%;display:block}
+/* ===== categorized roster ===== */
+.catblock{margin-top:14px}
+.cathead{display:flex;align-items:baseline;gap:12px;margin:30px 0 16px}
+.cathead h3{font-size:1.3rem;margin:0}
+.cathead .ln{flex:1;height:1px;background:var(--line)}
+.cathead .ct{font-size:.8rem;color:var(--muted2)}
+.roster{display:grid;grid-template-columns:repeat(5,1fr);gap:18px}
+@media(max-width:900px){.roster{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:560px){.roster{grid-template-columns:repeat(2,1fr)}}
+.member{text-align:center}
+.member .ph{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center 22%;border-radius:14px;
+  border:1px solid var(--line);box-shadow:var(--shadow-sm);background:var(--soft2)}
+.member .nm{font-family:Newsreader,serif;font-weight:600;font-size:1rem;margin:9px 0 0;line-height:1.2}
+.member .cn{color:var(--muted2);font-size:.82rem}
+.member .iv{color:var(--muted);font-size:.78rem;margin-top:3px;line-height:1.4}
+.pi-badge{display:inline-block;font-size:.62rem;font-weight:700;letter-spacing:.05em;color:#fff;
+  background:var(--teal);border-radius:5px;padding:1px 6px;vertical-align:middle;margin-left:4px}
