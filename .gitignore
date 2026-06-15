@@ -4,3 +4,4 @@ assets/slides/
 serve.py
 *.pdf
 .DS_Store
+*.docx
